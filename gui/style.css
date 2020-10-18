@@ -1,0 +1,45 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+::-webkit-scrollbar {
+    width:0px;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+    background:#fafafa;
+    background:black;
+    color:white;
+    font-size:4.5vw;
+}
+
+.gif {
+    width:100%;
+}
+
+.logo {
+    position:fixed;
+    top:3%;
+    left:3%;
+    height:10vh;
+    z-index:3;
+}
+
+.logo img {
+    height:100%;
+}
+
+.recogniser {
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    gap:5vh;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+}
